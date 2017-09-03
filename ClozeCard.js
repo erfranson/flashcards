@@ -6,7 +6,7 @@ function ClozeCard (text, cloze){
 			var partial = text.replace(cloze, "...");
 			console.log(partial);
 			} else{
-				console.log("Error that word is not in the card.");
+				console.log("Error " + cloze +  " is not in the text of the clozecard.");
 			}
 		};
 }
